@@ -1,0 +1,469 @@
+/* resetar css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* inserir fonte */
+@font-face {
+    font-family: 'zuume';
+    src: url(../fontes/Fontspring-DEMO-zuumerough-bold.otf);
+}
+
+/* inserir fonte */
+@font-face {
+    font-family: 'pirou';
+    src: url(../fontes/Pirou-Regular.otf);
+}
+
+/* inserir fonte */
+@font-face {
+    font-family: 'montserrat';
+    src: url(../fontes/Montserrat-VariableFont_wght.ttf);
+}
+
+/* inserir fonte */
+@font-face {
+    font-family: 'lora';
+    src: url(../fontes/Lora-VariableFont_wght.ttf);
+}
+
+/* ajustar conteudo da pagina */
+main{
+    width: 100%;
+    height: auto;
+    margin: 0% auto;
+    
+}
+
+/* colorir e ajustar cabeçalho */
+header{
+    background-color: #6f2dbd;
+    height: 100px;
+
+    
+}
+
+/* ajustar titulo */
+#logo1{
+    float: left;
+    font-family: 'zuume' ;
+    font-size: 60px;
+    margin-left: 30px;
+    margin-top: 15px;
+    
+}
+
+/* colorir e ajustar menu */
+nav{
+    background-color: #a663cc;
+    height: 30px;
+}
+
+/* ajustar menu */
+.MENU{
+    word-spacing: 150px;
+    margin-left: 450px;
+    font-size: 25px;
+    
+}
+
+/* colorir e  ajustar escritas do menu */
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/* colorir e ajustar artigo */
+article{
+    background-color: #b8d0eb;
+    width: 100%;
+    height: 1700px;
+    position: relative;
+    
+}
+
+/* ajustar conteudo */
+.pagina{
+    margin: 0 auto;
+    width: 100%;
+    height: 2000px;
+    overflow: hidden;
+
+}
+
+/* colorir e ajustar conteudo */
+.conteudo{
+    margin-top: 50px;
+    margin-left: 170px;
+    width: 80%;
+    height: 1600px;
+    background-color: #C688D8;
+    justify-content: center;
+}
+
+/* ajustar escritas */
+#escritas{ 
+    display: flex;
+    width: auto;
+    height: 45px;
+    font-weight: 400;
+    font-size: 50px;
+    font-family: 'montserrat';
+    justify-content: center;
+    padding-top: 10px;
+   
+    
+    
+}
+
+/* ajustar escritas */
+#escritas2{
+    width: 800px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 380px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 100;
+    font-family: 'lora';
+
+}
+
+/* ajustar escritas */
+#escritas3{
+   
+    width: 800px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 380px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 100;
+    font-family: 'lora';
+}
+
+/* ajustar escritas */
+#escritas4{
+   
+    width: 800px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 380px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 100;
+    font-family: 'lora';
+}
+
+/* ajustar escritas */
+#escritas5{
+    
+    width: 800px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 380px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 100;
+    font-family: 'lora';
+}
+
+
+/* ajustar slider */
+.slider{
+    margin-left: 100px;
+    margin-top: 200px;
+    width: 1300px;
+    height: 670px;
+    overflow: hidden;
+
+
+}
+
+/* ajustar slides */
+.slides{
+    width: 400%;
+    height: 300px;
+    display: flex;
+}
+
+/* ajustar input dos slides */
+.slides input {
+    display: none;
+}
+
+/* ajustar slide */
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 1s;
+}
+
+/* ajustar imagem do slide */
+.slide img{
+    width: 600px;
+    height: 300px;
+}
+
+/* ajustar escritas */
+#data1{
+    font-size: 100px;
+    width: 600px;
+    text-align: center;
+    margin-top: 150px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ajustar imagem */
+#img1{
+    margin-left: 700px;
+    margin-top: -200px;
+    width: 600px;
+}
+
+/* ajustar escritas */
+#data11{
+    font-size: 100px;
+    width: 600px;
+    text-align: center;
+    margin-top: -600px;
+    margin-left: 700px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ajustar escritas */
+#data2{
+    font-size: 100px;
+    width: 600px;
+    text-align: center;
+    margin-top: 150px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar imagem */
+#img2{
+    margin-left: 700px;
+    margin-top: -200px;
+    width: 600px;
+}
+
+/* ajustar escritas */
+#data22{
+    font-size: 100px;
+    width: 600px;
+    text-align: center;
+    margin-top: -600px;
+    margin-left: 700px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ajustar escritas */
+#data3{
+    font-size: 100px;
+    width: 600px;
+    text-align: center;
+    margin-top: 150px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar imagem */
+#img3{
+    margin-left: 700px;
+    margin-top: -200px;
+    width: 600px;
+}
+
+/* ajustar escritas */
+#data33{
+    font-size: 100px;
+    width: 600px;
+    text-align: center;
+    margin-top: -600px;
+    margin-left: 700px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ajustar escritas */
+#data4{
+    font-size: 100px;
+    width: 600px;
+    text-align: center;
+    margin-top: 150px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ajustar imagem */
+#img4{
+    margin-left: 700px;
+    margin-top: -200px;
+    width: 600px;
+}
+
+/* ajustar escritas */
+#data44{
+    font-size: 100px;
+    width: 600px;
+    text-align: center;
+    margin-top: -600px;
+    margin-left: 700px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ajustar navegação manual */
+.manual-navigation{
+    position: absolute;
+    width: 600px;
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ajustar botão manual */
+.manual-btn{
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+/* ajusta botão manual */
+.manual-btn:not(:last-child){
+    margin-right: 7px;
+}
+
+/* ajustar botão */
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+/* ajustar botão */
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+/* ajustar botão */
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+/* ajustar botão */
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+/* ajustar navegação automatica e div's */
+.navigation-auto div{
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+/* ajustar navegação automatica */
+.navigation-auto{
+    position: absolute;
+    width: 600px;
+    margin-top: 280px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ajustar navegação automatica e div's */
+.navigation-auto div:not(:last-child){
+    margin-right: 7px;
+}
+
+
+
+
+/* colorir e ajustar linha */
+.linha-vertical{
+    width: 3px;
+    height: 800px;
+    background-color: black;
+    margin-left: 40%;
+    margin-top: -660px;
+    position: absolute;
+}
+
+
+
+/* colorir e ajustar rodapé */
+footer{
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    color: white;
+    
+}
+
+/* ajustar conteudo do rodapé */
+.rodapé{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+
+}
+
+/*colorir e ajustar escritas do rodapé */
+#telefone{
+    color: #fff;
+    margin-top: 23px;
+    margin-left: 7px;
+    font-size: 17px;
+}
+
+/* inserir imagem no rodapé */
+#whats{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+/* inserir imagem no rodapé */
+#gmail{
+    margin-left: 30px;
+    margin-top: -4px;
+    height: 80px;
+    width: 80px;
+}
+
+/* colorir e ajustar escritas do rodapé */
+#email{
+    color: #fff;
+    margin-top: 22px;
+    font-size: 20px;
+}
+
+/* inserir imagem no rodapé */
+#camera{
+    margin-left: 30px;
+}
+
+/* colorir e ajustar escritas do rodapé */
+#insta{
+    color: #fff;
+    margin-top: 22px;
+    font-size: 20px;
+}
+
+/* inserir imagem no rodapé */
+#loc{
+    margin-left: 50px;
+    margin-top: 7px;
+    width: 60px;
+    height: 50px;
+}
+
+/* colorir e ajustar escritas do rodapé */
+#endereço{
+    color: #fff;
+    margin-left: 15px;
+    margin-top: 22px;
+    font-size: 20px;
+}

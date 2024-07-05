@@ -1,0 +1,972 @@
+/* resetar css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* inserir fonte */
+@font-face {
+    font-family: 'zuume';
+    src: url(../fontes/Fontspring-DEMO-zuumerough-bold.otf);
+}
+
+/* inserir fonte */
+@font-face {
+    font-family: 'pirou';
+    src: url(../fontes/Pirou-Regular.otf);
+}
+
+/* ajustar conteudo da pagina */
+main{
+    width: 100%;
+    height: auto;
+    margin: 0% auto;
+    
+}
+
+/* colorir e ajustar cabeçalho */
+header{
+    background-color: #6f2dbd;
+    height: 100px;
+
+    
+}
+
+/* ajustar escritas do cabeçalho */
+#logo{
+    width: 300px;
+    margin-left: 20px;
+}
+
+/* ajustar escritas do cabeçalho */
+#logo2{
+    float: right;
+    font-family: 'zuume' ;
+    font-size: 60px;
+    margin-right: 30px;
+    margin-top: 15px;
+    
+}
+
+/* colorir e ajustar menu */
+nav{
+    background-color: #a663cc;
+    height: 30px;
+}
+
+/* ajustar escritas do menu */
+.MENU{
+    word-spacing: 150px;
+    margin-left: 450px;
+    font-size: 25px;
+    
+
+}
+
+/* colorir letras do menu */
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/* colorir e ajustar artigo */
+article{
+    background-color: #b8d0eb;
+    width: 100%;
+    height: 1700px;
+    position: relative;
+    
+}
+
+
+
+
+/* ajustar artigo */
+.cardapio{
+    margin: 0 auto;
+    width: 1000px;
+    height: 2000px;
+    overflow: hidden;
+}
+
+/* colorir e ajustar opções */
+.opções{
+    margin-top: 100px;
+    width: 400%;
+    height: 1500px;
+    display: flex;
+    background-color: #C688D8;
+}
+
+/* ajustar input */
+.opções input{
+    display: none;
+}
+
+/* ajustar opção */
+.opção{
+    width: 25%;
+    position: relative;
+}
+
+/* ajustar navegação manual */
+.manual-navigation{
+    position: absolute;
+    width: 1000px;
+    margin-top: -1580px;
+    display: flex;
+    justify-content: center;
+}
+
+/* colorir e ajustar botão automatico */
+.manual-btn{
+    border: 2px solid black;
+    padding: 20px 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 1s;
+}
+
+/* ajustar botão manual */
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+/* colorir botão manual depois de apertado */
+.manual-btn:hover{
+    border-color: #072ac8;
+}
+
+/* ajustar botão */
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+/* ajustar botão */
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+/* ajustar botão */
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+/* ajustar botão */
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+/* colorir e ajustar navegação automatica e div's */
+.navigation-auto div{
+    border: 2px solid black;
+    padding: 20px 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 1s
+}
+
+/* ajustar navegação autotmatica */
+.navigation-auto{
+    position: absolute;
+    width: 1000px;
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ajustar navegação automatica e div's */
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+/* colorir e ajsutar botão, navegação automatica e botão automatico */
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #A663CC;
+    border-color: #072ac8;
+}
+
+/* colorir e ajsutar botão, navegação automatica e botão automatico */
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #A663CC;
+    border-color: #072ac8;
+}
+
+/* colorir e ajsutar botão, navegação automatica e botão automatico */
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #A663CC;
+    border-color: #072ac8;
+}
+
+/* colorir e ajsutar botão, navegação automatica e botão automatico */
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #A663CC;
+    border-color: #072ac8;
+}
+
+
+/* ajustar imagem */
+#imgvelvet{
+    width: 280px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+/* ajustar escritas */
+#nomevelvet{
+    margin-left: 365px;
+    margin-top: -195px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#descvelvet{
+    text-align: center;
+    margin-top: 20px;
+    width: 280px;
+    margin-left: 330px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ajustar escritas */
+#precovelvet{
+    margin-left: 750px;
+    width: 140px;
+    margin-top: -100px;
+    font-size: 20px;
+
+}
+
+/* ajustar imagem */
+#imgdois{
+    width: 280px;
+    margin-top: 120px;
+    margin-left: 40px;
+}
+
+/* ajustar escritas */
+#nomedois{
+    margin-left: 330px;
+    margin-top: -160px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ajustar escritas */
+#descdois{
+    text-align: center;
+    width: 270px;
+    margin-top: 10px;
+    margin-left: 330px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#precodois{
+    margin-left: 750px;
+    width: 140px;
+    margin-top: -100px;
+    font-size: 20px;
+
+}
+
+/* ajustar imagem */
+#imglimao{
+    width: 280px;
+    margin-top: 120px;
+    margin-left: 40px;
+
+}
+
+/* ajustar escritas */
+#nomelimao{
+    margin-left: 360px;
+    margin-top: -210px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#desclimao{
+    text-align: center;
+    width: 270px;
+    margin-top: 10px;
+    margin-left: 330px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ajustar escritas */
+#precolimao{
+    margin-left: 750px;
+    width: 140px;
+    margin-top: -100px;
+    font-size: 20px;
+
+}
+
+/* ajustar escritas */
+#linha{
+    margin-left: 260px;
+    margin-top: 240px;
+    font-size: 10px;
+    
+}
+
+/* colorir e ajustar escritas */
+#lancamentos{
+    font-family: 'pirou';
+    margin-left: 410px;
+    margin-top: 15px;
+    font-size: 40px;
+    color: #671380;
+}
+
+/* ajustar imagem */
+#imgpacoca{
+    width: 280px;
+    margin-top: 120px;
+    margin-left: 40px;
+}
+
+/* ajustar escritas */
+#nomepacoca{
+    margin-left: 360px;
+    margin-top: -190px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ajustar escritas */
+#descpacoca{
+    text-align: center;
+    width: 270px;
+    margin-top: 10px;
+    margin-left: 330px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#precopacoca{
+    margin-left: 750px;
+    width: 140px;
+    margin-top: -100px;
+    font-size: 20px;
+
+}
+
+/* ajustar imagem */
+#imgxcake{
+    width: 280px;
+    margin-top: 180px;
+    margin-left: 40px;
+
+}
+
+/* ajustar escritas */
+#nomexcake{
+    margin-left: 380px;
+    margin-top: -210px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#descxcake{
+    text-align: center;
+    width: 270px;
+    margin-top: 10px;
+    margin-left: 330px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#precoxcake{
+    margin-left: 750px;
+    width: 140px;
+    margin-top: -100px;
+    font-size: 20px;
+
+
+}
+
+/* ajustar imagem */
+#imgkinder{
+    width: 280px;
+    margin-top: 30px;
+    margin-left: 40px;
+
+}
+
+/* ajustar escritas */
+#nomekinder{
+    margin-left: 350px;
+    margin-top: -230px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#desckinder{
+    text-align: center;
+    width: 270px;
+    margin-top: 10px;
+    margin-left: 350px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#precokinder{
+    margin-left: 850px;
+    width: 120px;
+    margin-top: -100px;
+    font-size: 20px;
+
+}
+
+/* ajustar imagem */
+#imgdonuts2{
+    width: 280px;
+    margin-top: 240px;
+    margin-left: 680px;
+
+}
+
+/* ajustar escritas */
+#nomedonuts2{
+    margin-left: 370px;
+    margin-top: -270px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#descdonuts2{
+    text-align: center;
+    width: 270px;
+    margin-top: 10px;
+    margin-left: 368px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#precodonuts2{
+    margin-left: 80px;
+    width: 120px;
+    margin-top: -100px;
+    font-size: 20px;
+
+}
+
+/* ajustar imagem */
+#imghommer{
+    width: 300px;
+    margin-top: 300px;
+    margin-left: 40px;
+
+}
+
+/* ajustar escritas */
+#nomehommer{
+    margin-left: 390px;
+    margin-top: -170px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#deschommer{
+    text-align: center;
+    width: 270px;
+    margin-top: 10px;
+    margin-left: 368px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+
+}
+
+/* ajustar escritas */
+#precohommer{
+    margin-left: 850px;
+    width: 120px;
+    margin-top: -100px;
+    font-size: 20px;
+
+}
+
+/* ajustar imagem */
+#imgamendoim{
+    width: 280px;
+    margin-top: 240px;
+    margin-left: 680px;
+
+}
+
+/* ajustar escritas */
+#nomeamendoim{
+    margin-left: 370px;
+    margin-top: -200px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#descamendoim{
+    text-align: center;
+    width: 270px;
+    margin-top: 10px;
+    margin-left: 368px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#precoamendoim{
+    margin-left: 80px;
+    width: 120px;
+    margin-top: -100px;
+    font-size: 20px;
+
+}
+
+/* ajustar escritas */
+#embreve{
+    font-family: 'pirou';
+    margin-left: 330px;
+    margin-top: 260px;
+    font-size: 30px;
+}
+
+/* ajustar imagem */
+#imgrefri{
+    width: 280px;
+    margin-top: 30px;
+    margin-left: 40px;
+
+}
+
+/* ajustar escritas */
+#nomerefri{
+    margin-left: 370px;
+    margin-top: -180px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#descrefri{
+    text-align: center;
+    width: 270px;
+    margin-top: 10px;
+    margin-left: 368px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#precorefri{
+    margin-left: 850px;
+    width: 120px;
+    margin-top: -100px;
+    font-size: 20px;
+
+
+}
+
+/* ajustar imagem */
+#imgsucos{
+    width: 280px;
+    margin-top: 200px;
+    margin-left: 40px;
+
+}
+
+/* ajustar escritas */
+#nomesucos{
+    margin-left: 460px;
+    margin-top: -180px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#descsucos{
+    text-align: center;
+    width: 270px;
+    margin-top: 10px;
+    margin-left: 368px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#descsucos1{
+    text-align: center;
+    width: 270px;
+    margin-top: 20px;
+    margin-left: 368px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#precosucos{
+    margin-left: 810px;
+    width: 170px;
+    margin-top: -100px;
+    font-size: 20px; 
+}
+
+/* ajustar linha */
+#linha1{
+    margin-left: 260px;
+    margin-top: 240px;
+    font-size: 10px;
+}
+
+/* ajustar imagem */
+#imgchoco{
+    width: 280px;
+    margin-top: 160px;
+    margin-left: 40px;
+
+}
+
+/* ajustar escritas */
+#nomechoco{
+    margin-left: 380px;
+    margin-top: -180px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#descchoco{
+    text-align: center;
+    width: 270px;
+    margin-top: 20px;
+    margin-left: 368px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#precochoco{
+    margin-left: 810px;
+    width: 170px;
+    margin-top: -100px;
+    font-size: 20px;
+
+}
+
+/* ajustar imagem */
+#imgcap{
+    width: 280px;
+    margin-top: 190px;
+    margin-left: 40px;
+
+}
+
+/* ajustar escritas */
+#nomecap{
+    margin-left: 380px;
+    margin-top: -260px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#desccap{
+    text-align: center;
+    width: 270px;
+    margin-top: 20px;
+    margin-left: 368px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#precocap{
+    margin-left: 810px;
+    width: 170px;
+    margin-top: -100px;
+    font-size: 20px;
+
+}
+
+/* ajustar imagem */
+#imgmorango{
+    width: 280px;
+    margin-top: 30px;
+    margin-left: 40px;
+
+}
+
+/* ajustar escritas */
+#nomemorango{
+    margin-left: 365px;
+    margin-top: -180px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#descmorango{
+    text-align: center;
+    width: 270px;
+    margin-top: 15px;
+    margin-left: 368px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ajustar escritas */
+#precomorango{
+    margin-left: 810px;
+    width: 170px;
+    margin-top: -100px;
+    font-size: 20px;
+}
+
+/* ajustar imagem */
+#imgfeliz{
+    width: 280px;
+    margin-top: 250px;
+    margin-left: 40px;
+}
+
+/* ajustar escritas */
+#nomefeliz{
+    margin-left: 380px;
+    margin-top: -180px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#descfeliz{
+    text-align: center;
+    width: 270px;
+    margin-top: 15px;
+    margin-left: 368px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+/* ajustar escritas */
+#precofeliz{
+    margin-left: 810px;
+    width: 170px;
+    margin-top: -100px;
+    font-size: 20px;
+
+}
+
+/* ajustar imagem */
+#imgmacarons{
+    width: 280px;
+    margin-top: 250px;
+    margin-left: 40px;
+
+}
+
+/* ajustar escritas */
+#nomemacarons{
+    margin-left: 445px;
+    margin-top: -190px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ajustar escritas */
+#descmacarons{
+    text-align: center;
+    width: 350px;
+    margin-top: 10px;
+    margin-left: 350px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#precomacarons{
+    margin-left: 810px;
+    width: 170px;
+    margin-top: -140px;
+    font-size: 20px;
+}
+
+/* ajustar imagem */
+#imggormet{
+    width: 280px;
+    margin-top: 250px;
+    margin-left: 40px;
+
+}
+
+/* ajustar escritas */
+#nomegormet{
+    margin-left: 420px;
+    margin-top: -200px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#descgormet{
+    text-align: center;
+    width: 350px;
+    margin-top: 10px;
+    margin-left: 350px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* ajustar escritas */
+#precogormet{
+    margin-left: 810px;
+    width: 170px;
+    margin-top: -140px;
+    font-size: 20px;
+
+}
+
+
+
+
+/* colorir e ajustar rodapé */
+footer{
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    color: white;
+    
+}
+
+/* ajustar conteudo do rodapé */
+.rodapé{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+
+}
+
+/*colorir e ajustar escritas do rodapé */
+#telefone{
+    color: #fff;
+    margin-top: 23px;
+    margin-left: 7px;
+    font-size: 17px;
+}
+
+/* inserir imagem no rodapé */
+#whats{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+/* inserir imagem no rodapé */
+#gmail{
+    margin-left: 30px;
+    margin-top: -4px;
+    height: 80px;
+    width: 80px;
+}
+
+/* colorir e ajustar escritas do rodapé */
+#email{
+    color: #fff;
+    margin-top: 22px;
+    font-size: 20px;
+}
+
+/* inserir imagem no rodapé */
+#camera{
+    margin-left: 30px;
+}
+
+/* colorir e ajustar escritas do rodapé */
+#insta{
+    color: #fff;
+    margin-top: 22px;
+    font-size: 20px;
+}
+
+/* inserir imagem no rodapé */
+#loc{
+    margin-left: 50px;
+    margin-top: 7px;
+    width: 60px;
+    height: 50px;
+}
+
+/* colorir e ajustar escritas do rodapé */
+#endereço{
+    color: #fff;
+    margin-left: 15px;
+    margin-top: 22px;
+    font-size: 20px;
+}
+

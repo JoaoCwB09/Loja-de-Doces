@@ -1,0 +1,361 @@
+/* inserir fonte */
+@font-face {
+    font-family: 'zuume';
+    src: url(../fontes/Fontspring-DEMO-zuumerough-bold.otf);
+}
+
+/* inserir fonte */
+@font-face {
+    font-family: 'brittany';
+    src: url(../fontes/BrittanySignature.ttf);
+}
+
+/* ajustar corpo da pagina */
+body{
+    margin: 0px 0px;
+}
+
+/* ajustar conteudo da pagina */
+main{
+    width: 100%;
+    height: auto;
+    margin: 0% auto;
+    
+}
+
+/* colorir e ajustar cabeçalho */
+header{
+    background-color: #6f2dbd;
+    height: 100px;
+
+    
+}
+
+/* ajustar o titulo do cabeçalho */
+#logo{
+    margin-top: 30px;
+    margin-left: 20px;
+    float: left;
+    width: px;
+    height: 40px;
+    font-size: 40px;
+    font-family: 'zuume' ;
+    
+}
+
+/* justar imagem do cabeçalho */
+#img{
+    float: left;
+    margin-top: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+/* colorir e ajustar menu */
+nav{
+    background-color: #a663cc;
+    height: 30px;
+}
+
+/* ajustar escritas do menu */
+.MENU{
+    word-spacing: 150px;
+    margin-left: 450px;
+    font-size: 25px;
+    
+
+}
+
+/* colorir letras do menu */
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/* colorir e ajustar menu lateral */
+aside{
+    background-color: #b298dc;
+    width: 40%;
+    height: 700px;
+    float: right;
+    position: relative;
+
+}
+
+/* ajustar escritas do menu lateral */
+.destaques{
+    text-align: center;
+}
+
+/* ajustar escritas do menu */
+#promoção{
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+/* ajustar imagem do menu lateral */
+#macarons{
+    margin-top: 30px;
+    width: 500px;
+    height: 300px;
+}
+
+/* ajustar escritas do menu lateral */
+#desconto{
+    margin-top: 20px;
+    width: 400px;
+    font-size: 30px;
+    margin-left: 180px;
+
+}
+
+/* ajustar escritas do menu lateral */
+#praso{
+    color: white;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+/* colorir e ajustar artigo */
+article{
+    background-color: #b8d0eb;
+    width: 60%;
+    height: 700px;
+    position: relative;
+    
+}
+
+/* ajustar artigo */
+.conteudo{
+    text-align: center;
+}
+
+/* ajustar escritas do artigo */
+#escritas{
+
+    margin-top: 2px;
+    font-family: 'brittany';
+    font-size: 50px;
+    height: 20px;
+    margin-left: -120px;
+}
+
+/* ajustar escritas do artigo */
+#escritas2{
+    float: none;
+    margin-top: 90px;
+    margin-left: 195px;
+    font-size: 25px;
+    width: 600px;
+}
+
+
+/* ajustar slider */
+.slider{
+    margin-left: 200px;
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+
+
+}
+
+/* ajustar slides */
+.slides{
+    width: 400%;
+    height: 300px;
+    display: flex;
+}
+
+/* ajustar os inputs dos slides */
+.slides input {
+    display: none;
+}
+
+/* ajustar slide */
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+
+/* ajustar imagem do slide */
+.slide img{
+    width: 600px;
+    height: 300px;
+}
+
+/* ajustar navegação manual */
+.manual-navigation{
+    position: absolute;
+    width: 600px;
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ajustar botão */
+.manual-btn{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+/* ajustar botão */
+.manual-btn:not(:last-child){
+    margin-right: 7px;
+}
+
+/* colorir botão quando apertado  */
+.manual-btn:hover{
+    background-color: #fff;
+}
+
+/* ajustando botão */
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+/* ajustando botão */
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+/* ajustando botão */
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+/* ajustando botão */
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+/* colorir e ajustar as div's da navegação automatica */
+.navigation-auto div{
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+/* ajustar navegação automatica */
+.navigation-auto{
+    position: absolute;
+    width: 600px;
+    margin-top: 280px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ajustar navegação automatica e div's */
+.navigation-auto div:not(:last-child){
+    margin-right: 7px;
+}
+
+/* ajustando botão, navegação automatica e botão automatico */
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #fff;
+}
+
+/* ajustando botão, navegação automatica e botão automatico */
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #fff;
+}
+
+/* ajustando botão, navegação automatica e botão automatico */
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #fff;
+}
+
+/* ajustando botão, navegação automatica e botão automatico */
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #fff;
+}
+
+/* ajustar escritas */
+#escritas3{
+    font-size: 20px;
+    margin-left: -117px;
+}
+
+
+/* colorir e ajustar rodapé */
+footer{
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    color: white;
+    
+}
+
+/* ajustar conteudo do rodapé */
+.rodapé{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+
+}
+
+/*colorir e ajustar escritas do rodapé */
+#telefone{
+    color: #fff;
+    margin-top: 23px;
+    margin-left: 7px;
+    font-size: 17px;
+}
+
+/* inserir imagem no rodapé */
+#whats{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+/* inserir imagem no rodapé */
+#gmail{
+    margin-left: 30px;
+    margin-top: -4px;
+    height: 80px;
+    width: 80px;
+}
+
+/* colorir e ajustar escritas do rodapé */
+#email{
+    color: #fff;
+    margin-top: 22px;
+    font-size: 20px;
+}
+
+/* inserir imagem no rodapé */
+#camera{
+    margin-left: 30px;
+}
+
+/* colorir e ajustar escritas do rodapé */
+#insta{
+    color: #fff;
+    margin-top: 22px;
+    font-size: 20px;
+}
+
+/* inserir imagem no rodapé */
+#loc{
+    margin-left: 50px;
+    margin-top: 7px;
+    width: 60px;
+    height: 50px;
+}
+
+/* colorir e ajustar escritas do rodapé */
+#endereço{
+    color: #fff;
+    margin-left: 15px;
+    margin-top: 22px;
+    font-size: 20px;
+}
